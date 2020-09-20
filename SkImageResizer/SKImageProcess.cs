@@ -80,7 +80,7 @@ namespace SkImageResizer
 
                     if (cts.IsCancellationRequested)
                     {
-                        Console.WriteLine($"Current ThreadID: {Thread.CurrentThread.ManagedThreadId} 被取消");
+                        Console.WriteLine($"Current ThreadID: {imgName} 被取消");
                     }
 
                     using var scaledBitmap = bitmap.Resize(
